@@ -1,5 +1,4 @@
-.nav-wrap{
-    
+.nav-wrap {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -74,8 +73,61 @@ nav .logo img {
   color: #fff;
 }
 
-.header{
-    background-color: #495e57;
-    color: #fff;
-    padding: 25px 20px;
+.header {
+  background-color: #495e57;
+  color: #fff;
+  padding: 25px 20px;
+}
+
+.header-title {
+  color: #f4ce14;
+  font-size: 3.6rem;
+  font-weight: 500;
+  font-family: 'Markazi Text', serif;
+}
+
+header section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header section div {
+  flex: 1;
+}
+
+.header-title,
+.sub-title {
+  color: #f4ce14;
+  font-size: 3.6rem;
+  font-weight: 500;
+  font-family: 'Markazi Text', serif;
+  line-height: 40px;
+}
+
+.sub-title {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.welcome-msg {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+header .header-banner {
+  display: flex;
+  flex: 2;
+  justify-content: end;
+  overflow: hidden;
+}
+
+header .header-banner img {
+  border-radius: 30px;
+  position: absolute;
+  top: 20px;
+  width: 320px;
+  height: 380px;
 }

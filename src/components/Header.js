@@ -10,8 +10,8 @@ const Header = () => {
       <div className='header-wrap container'>
         <section>
           <div>
-            <h1 className='header-title'>Little Lemon</h1>
-            <h3 className='sub-title'>Chicago</h3>
+            <h1 className='header-title mb-1'>Little Lemon</h1>
+            <h3 className='sub-title mb-3'>Chicago</h3>
             <p className='welcome-msg'>
               We are a family owned Mediteraneean restaurant, focused on
               traditional recipes served with a modern twist.
@@ -21,8 +21,8 @@ const Header = () => {
               <Button label='Reserve a table' />
             </Link>
           </div>
-          <div>
-            <img src={headerBanner} alt='header' height='250px' width='250px' />
+          <div className="header-banner">
+            <img src={headerBanner} alt='little-lemon banner' />
           </div>
         </section>
       </div>
