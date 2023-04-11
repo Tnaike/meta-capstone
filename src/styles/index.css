@@ -66,10 +66,16 @@ nav .logo img {
 
 .nav .login {
   background-color: transparent;
-  border: 1px solid #495e57;
+  border: 1px solid #d7d7d7;
 }
 
 .nav .login:hover {
   background-color: #333333;
   color: #fff;
+}
+
+.header{
+    background-color: #495e57;
+    color: #fff;
+    padding: 25px 20px;
 }

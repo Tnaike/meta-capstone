@@ -1,0 +1,23 @@
+.button {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button.button-primary{
+    background-color: #f4ce14;
+    color: #000;
+}
+
+.button.button-secondary{
+    background-color: #333333;
+    color: #fff;
+}
+
+.button.button-size-default {
+    padding: 10px 25px;
+    font-size: 1rem;
+}
