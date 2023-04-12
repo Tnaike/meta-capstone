@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from '../../components/Header';
 import Nav from '../../components/Nav';
+import Header from '../../components/Header';
+import MenuOrder from '../../components/MenuOrder';
 
 const HomePage = () => {
   return (
     <>
       <Nav />
       <Header />
+      <MenuOrder />
     </>
   );
 };
