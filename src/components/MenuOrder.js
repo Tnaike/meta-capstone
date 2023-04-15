@@ -12,19 +12,19 @@ const MenuOrder = () => {
         <div className='menu-display-wrap'>
           <div className='menu-list'>
             <img src={lunchMenu} alt='lunch menu' />
-            <h4>Lunch Menu</h4>
+            <h4 className='menu-list-title'>Lunch Menu</h4>
           </div>
           <div className='menu-list'>
             <img src={dinnerMenu} alt='lunch menu' />
-            <h4>Dinner Menu</h4>
+            <h4 className='menu-list-title'>Dinner Menu</h4>
           </div>
           <div className='menu-list'>
             <img src={mainMenu} alt='lunch menu' />
-            <h4>Main Menu</h4>
+            <h4 className='menu-list-title'>Main Menu</h4>
           </div>
           <div className='menu-list'>
             <img src={dessertMenu} alt='lunch menu' />
-            <h4>Dessert Menu</h4>
+            <h4 className='menu-list-title'>Dessert Menu</h4>
           </div>
         </div>
       </div>

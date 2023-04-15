@@ -133,12 +133,60 @@ header .header-banner img {
 }
 
 .order-section {
-    padding-top: 60px;
-    padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .section-title {
-    margin-bottom: 10px;
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.menu-display-wrap {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.menu-display-wrap .menu-list {
+  position: relative;
+  width: calc(50% - 10px);
+  height: 320px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.menu-display-wrap .menu-list::before {
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 23%);
+  z-index: 1;
+}
+
+.menu-display-wrap .menu-list img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-list .menu-list-title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 0 0 2px #000;
+  z-index: 1;
 }
