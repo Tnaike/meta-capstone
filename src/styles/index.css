@@ -147,6 +147,7 @@ header .header-banner img {
   /* flex-wrap: wrap; */
   gap: 15px;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .menu-display-wrap .menu-list {
