@@ -6,7 +6,7 @@ import dessertMenu from '../assets/dessert-menu.jpg';
 
 const MenuOrder = () => {
   return (
-    <div className='order-section mt-2'>
+    <section className='order-section mt-2'>
       <div className='container'>
         <h1 className='section-title mb-3'>Order for Delivery!</h1>
         <div className='menu-display-wrap'>
@@ -28,7 +28,7 @@ const MenuOrder = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
