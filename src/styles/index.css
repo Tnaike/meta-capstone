@@ -154,7 +154,7 @@ header .header-banner img {
   width: calc(50% - 10px);
   height: 320px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
