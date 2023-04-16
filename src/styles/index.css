@@ -140,7 +140,7 @@ header .header-banner img {
 .order-section,
 .about-section {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 .section-title {
@@ -153,7 +153,6 @@ header .header-banner img {
   /* flex-wrap: wrap; */
   gap: 15px;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 .menu-display-wrap .menu-list {
@@ -196,6 +195,22 @@ header .header-banner img {
   font-weight: 600;
   text-shadow: 0 0 2px #000;
   z-index: 1;
+}
+
+/* Special menu */
+.specialMenu-wrap {
+  display: flex;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.specialMenu-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
 }
 
 footer.footer {
