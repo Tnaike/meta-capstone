@@ -2,6 +2,9 @@ import logo from '../assets/logo192.png';
 import { NavLink } from 'react-router-dom';
 
 function Footer() {
+  const date = new Date();
+  const year = date.getFullYear();
+
   return (
     <footer className='footer'>
       <div className='container'>
@@ -31,7 +34,7 @@ function Footer() {
           </ul>
         </section>
         <section>
-          <h3>Contact</h3>
+          <h3>Contact Us</h3>
           <ul>
             <li>Address</li>
             <li>Phone number</li>
@@ -39,7 +42,7 @@ function Footer() {
           </ul>
         </section>
         <section>
-          <h3>Social </h3>
+          <h3>Social Media</h3>
           <ul>
             <li>
               <a
@@ -83,6 +86,18 @@ function Footer() {
             </li>
           </ul>
         </section>
+      </div>
+      <div className='site-info'>
+        <div className='container'>
+          <div>
+            <div>
+              Copyright © {year} Little Lemon Resturant All rights reserved.
+            </div>
+            <div>
+              Develop &amp; design by <span>Tnaike</span>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );
