@@ -30,8 +30,10 @@ const Nav = () => {
             <NavLink to='/booking'>Reservations</NavLink>
           </li>
         </ul>
-        <div className='signUp'>Signup</div>
-        <div className='login'>Login</div>
+        <div className="login-wrap">
+          <div className='signUp'>Signup</div>
+          <div className='login'>Login</div>
+        </div>
       </nav>
     </div>
   );

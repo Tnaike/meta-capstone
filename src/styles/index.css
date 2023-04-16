@@ -64,6 +64,10 @@ nav .logo img {
   border-radius: 20px;
 }
 
+nav .login-wrap {
+  display: flex;
+  gap: 15px;
+}
 .nav .login {
   background-color: transparent;
   border: 1px solid #d7d7d7;
