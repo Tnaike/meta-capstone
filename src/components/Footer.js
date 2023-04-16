@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <footer className='footer'>
-      <div className='container'>
+      <div className='footer-wrap container'>
         <img src={logo} alt='logo' />
         <section>
           <h3>Quick link</h3>
@@ -30,15 +30,14 @@ function Footer() {
             <li>
               <NavLink to='booking'>Reservations</NavLink>
             </li>
-            <li>Login</li>
           </ul>
         </section>
         <section>
           <h3>Contact Us</h3>
           <ul>
             <li>Address</li>
-            <li>Phone number</li>
-            <li>Email</li>
+            <li>+234 8023031668</li>
+            <li>timmynaike@gmail.com</li>
           </ul>
         </section>
         <section>
