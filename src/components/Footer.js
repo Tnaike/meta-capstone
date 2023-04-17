@@ -1,4 +1,4 @@
-import logo from '../assets/logo192.png';
+import logo from '../assets/footer-logo.png';
 import { NavLink } from 'react-router-dom';
 
 function Footer() {
@@ -35,7 +35,11 @@ function Footer() {
         <section>
           <h3>Contact Us</h3>
           <ul>
-            <li>Address</li>
+            <li>
+              1001 NE 2nd AVE Miami,
+              <br />
+              FL 33136
+            </li>
             <li>+234 8023031668</li>
             <li>timmynaike@gmail.com</li>
           </ul>
