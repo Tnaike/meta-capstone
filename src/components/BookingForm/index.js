@@ -8,6 +8,7 @@ function BookingForm({ dispatch, submitForm }) {
   const [time, setTime] = useState('');
   const [guests, setGuests] = useState('');
   const [occasion, setOccasion] = useState('');
+  const [preferences, setPreferences] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -18,6 +19,7 @@ function BookingForm({ dispatch, submitForm }) {
     setTime('');
     setGuests('');
     setOccasion('');
+    setPreferences('');
   };
 
   return (
@@ -91,6 +93,19 @@ function BookingForm({ dispatch, submitForm }) {
               <option value='Birthday'>Birthday</option>
               <option value='Anniversary'>Anniversary</option>
               <option value='Other'>Other</option>
+            </select>
+          </div>
+          <div className='field-group'>
+            <label htmlFor='preferences'>Seating preferences</label>
+            <select
+              id='preferences'
+              value={preferences}
+              onChange={(e) => setPreferences(e.target.value)}
+            >
+              <option>None</option>
+              <option>Standard</option>
+              <option>Inside</option>
+              <option>Outdoor</option>
             </select>
           </div>
 
