@@ -58,11 +58,11 @@ function Booking() {
     }
   }
 
-  function submitForm(formData) {
+  const submitForm = (formData) => {
     submitAPI(formData) === true
       ? navigate('/confirmation')
       : console.log('error');
-  }
+  };
 
   return (
     <>

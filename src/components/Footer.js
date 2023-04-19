@@ -28,7 +28,7 @@ function Footer() {
               <NavLink to='/order-online'>Order Online</NavLink>
             </li>
             <li>
-              <NavLink to='booking'>Reservations</NavLink>
+              <NavLink to='/booking'>Reservations</NavLink>
             </li>
           </ul>
         </section>

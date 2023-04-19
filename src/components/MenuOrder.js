@@ -16,15 +16,15 @@ const MenuOrder = () => {
               <h4 className='menu-list-title'>Lunch Menu</h4>
             </div>
             <div className='menu-list'>
-              <img src={dinnerMenu} alt='lunch menu' />
+              <img src={dinnerMenu} alt='dinner menu' />
               <h4 className='menu-list-title'>Dinner Menu</h4>
             </div>
             <div className='menu-list'>
-              <img src={mainMenu} alt='lunch menu' />
+              <img src={mainMenu} alt='main menu' />
               <h4 className='menu-list-title'>Main Menu</h4>
             </div>
             <div className='menu-list'>
-              <img src={dessertMenu} alt='lunch menu' />
+              <img src={dessertMenu} alt='dessert menu' />
               <h4 className='menu-list-title'>Dessert Menu</h4>
             </div>
           </div>

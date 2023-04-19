@@ -5,16 +5,18 @@ const About = () => {
   return (
     <>
       <Nav />
-      <section className='about-section'>
+      <div>
         <section>
           <div className='page-header'>
             <h1 className='page-title'>About</h1>
           </div>
         </section>
-        <div className='container'>
-          <h2>Know more about Little Lemon Restuarant</h2>
-        </div>
-      </section>
+        <section className='about-section'>
+          <div className='container'>
+            <h3>Know more about Little Lemon Restuarant</h3>
+          </div>
+        </section>
+      </div>
       <Footer />
     </>
   );

@@ -15,7 +15,9 @@ const Button = ({
       type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`button button-${variant} button-size-${size} ${fullWidth && 'w-full'}`}
+      className={`button button-${variant} button-size-${size} ${
+        fullWidth && 'w-full'
+      }`}
     >
       {label}
     </button>
