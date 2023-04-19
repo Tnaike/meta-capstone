@@ -6,8 +6,13 @@ const About = () => {
     <>
       <Nav />
       <section className='about-section'>
+        <section>
+          <div className='page-header'>
+            <h1 className='page-title'>About</h1>
+          </div>
+        </section>
         <div className='container'>
-          <h2>About</h2>
+          <h2>Know more about Little Lemon Restuarant</h2>
         </div>
       </section>
       <Footer />
