@@ -4,6 +4,7 @@ import HomePage from './pages/home';
 import About from './pages/about';
 import Gallery from './pages/gallery';
 import Booking from './pages/booking';
+import ConfirmedBooking from './components/ConfirmedBooking';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/booking' element={<Booking />} />
+        <Route path='/confirmation' element={<ConfirmedBooking />} />
       </Routes>
     </BrowserRouter>
   );

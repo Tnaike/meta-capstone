@@ -67,7 +67,7 @@ function Booking() {
   return (
     <>
       <Nav />
-      <section className='container'>
+      <section>
         <BookingForm dispatch={dispatch} submitForm={submitForm} />
       </section>
       <Footer />
