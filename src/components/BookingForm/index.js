@@ -24,7 +24,7 @@ function BookingForm({ dispatch, submitForm }) {
     <>
       <section>
         <div className='page-header'>
-          <h1 className='page-title'>Booking</h1>
+          <h1 className='page-title'>Reserve a table</h1>
         </div>
       </section>
       <section className='form-wrapper'>
