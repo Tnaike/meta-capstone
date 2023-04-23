@@ -102,10 +102,10 @@ function BookingForm({ dispatch, submitForm }) {
               value={preferences}
               onChange={(e) => setPreferences(e.target.value)}
             >
-              <option>None</option>
-              <option>Standard</option>
-              <option>Inside</option>
-              <option>Outdoor</option>
+              <option value=''>None</option>
+              <option value='Standard'>Standard</option>
+              <option value='Inside'>Inside</option>
+              <option value='Outdoor'>Outdoor</option>
             </select>
           </div>
 
