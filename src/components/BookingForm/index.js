@@ -114,7 +114,7 @@ function BookingForm({ dispatch, submitForm }) {
               type='submit'
               label='Submit reservation'
               fullWidth
-              disabled={!date || !time || !guests || !occasion}
+              disabled={!date || !time || !guests || !occasion || !preferences}
             />
           </div>
         </form>
